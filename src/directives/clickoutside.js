@@ -28,18 +28,6 @@ export default {
     };
     document.addEventListener('click', el[ctx].bindingFn);
   },
-
-
-  // update(el, binding, vnode) {
-  //   el[ctx].methodName = binding.expression;
-  //   el[ctx].bindingFn = function(e){
-  //     if (!el.contains(e.target)) {
-  //       binding.value();
-  //     }
-  //   };
-  //   document.addEventListener('click', el[ctx].bindingFn);
-  // },
-
   unbind(el) {
     let len = nodeList.length;
 
