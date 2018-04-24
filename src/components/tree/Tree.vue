@@ -1,7 +1,7 @@
 <template>
   <div class="treeMenu">
     <ul class="tree">
-      <tree-item v-if='hasChildNodes' v-for='(item,index) in data' :layout='layout' :index='index' :key='index' :model='item' :options='defaultOptions' :onlyKey='onlyKey'></tree-item>
+      <tree-item v-if='hasChildNodes' v-for='(item,index) in data' :layout='layout' :index='index' :key='index' :model='item' :renderContent="renderContent" :options='defaultOptions' :onlyKey='onlyKey'></tree-item>
     </ul>
   </div>
 </template>

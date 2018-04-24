@@ -11,7 +11,7 @@
       <node-content :model="model" :options='defaultOptions'></node-content>
     </div>
     <ul v-show="isUnfold" v-if="hasChildNodes" :class="['tree-parent-children','tree-parent-'+index+'-children']">
-      <TreeItem v-for='(item,index) in model[defaultOptions.children]' :layout='layout' :onlyKey='onlyKey' :index='index' :key='index' :model='item' :options='defaultOptions' @dispathParent="changeState"></TreeItem>
+      <TreeItem v-for='(item,index) in model[defaultOptions.children]' :layout='layout' :onlyKey='onlyKey' :index='index' :key='index' :model='item' :options='defaultOptions' :renderContent="renderContent" @dispathParent="changeState"></TreeItem>
     </ul>
   </li>
 </template>

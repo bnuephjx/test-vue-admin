@@ -8,7 +8,6 @@
       :data="treeData"
       :options="treeOptions"
       onlyKey='shopId'
-      :renderContent='renderContent'
       @node-click="handleNodeClick"></module-tree>
     <a  href="javascript:void(0);" class="btn btn-success" @click="getInfo">获取选中项</a>
     <h3 class="explain-h3">Tree Attributes</h3>
