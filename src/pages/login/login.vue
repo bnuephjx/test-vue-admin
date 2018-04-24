@@ -62,7 +62,10 @@ export default {
                         // 根据roles权限生成可访问的路由表
                         // 动态添加可访问路由表
                         this.$router.addRoutes(this.$store.getters.addRoutes);
-                        window.location.replace('/');
+
+                        const isProduction = process.env.NODE_ENV === 'production';
+
+                        isProduction ? window.location.replace('http://demo.bnuephjx.com/test-vue-admin.github.io'):window.location.replace('/');
                         // http://demo.bnuephjx.com/test-vue-admin.github.io
                     });
                   });
