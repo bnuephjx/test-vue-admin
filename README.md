@@ -4,6 +4,13 @@
 
 项目预览地址：http://demo.bnuephjx.com/test-vue-admin.github.io
 
+## 项目功能
+
+1. 有权限控制
+2. 存在会话记录
+3. 不使用第三方插件，从而自定义通用组件
+
+
 ## 项目构建
 
 ``` bash
