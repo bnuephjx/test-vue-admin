@@ -10,7 +10,7 @@
         <div class="help-container-body">
           <div class="help-body-content">
             <p>
-              <span class="tips">这是一个练手项目，如果不足欢迎提出，谢谢！</span>
+              <span class="tips">这是一个练手项目，如有不足欢迎提出，谢谢！</span>
               <br>
               <span class="tips">本项目已开源，如果喜欢，麻烦给个星，谢谢！：</span>
             </p>

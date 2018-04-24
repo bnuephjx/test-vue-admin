@@ -1,21 +1,18 @@
 # test-vue-admin
 
-> A Vue.js project
+> 这是本人的一个练手项目,如果对您有帮助麻烦给个星~~~如有不足欢迎提出，谢谢
 
-## Build Setup
+项目预览地址：http://demo.bnuephjx.com/test-vue-admin.github.io
+
+## 项目构建
 
 ``` bash
-# install dependencies
+# 下载依赖包（加了淘宝镜像）
 npm install --save-dev --registry=http://registry.npm.taobao.org
 
-# serve with hot reload at localhost:8090
+# 运行项目（localhost:8090）
 npm run dev
 
-# build for production with minification
+# 打包项目
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
