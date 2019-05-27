@@ -65,8 +65,8 @@ export default {
 
                         const isProduction = process.env.NODE_ENV === 'production';
 
-                        isProduction ? window.location.replace('http://demo.bnuephjx.com/test-vue-admin.github.io'):window.location.replace('/');
-                        // http://demo.bnuephjx.com/test-vue-admin.github.io
+                        isProduction ? window.location.replace('https://demo.bnuephjx.com/test-vue-admin.github.io'):window.location.replace('/');
+                        // https://demo.bnuephjx.com/test-vue-admin.github.io
                     });
                   });
                 } else {
