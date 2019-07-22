@@ -150,3 +150,28 @@
 	background-color: #009688;
     color: #fff;
 }
+.calendar .calendar-footer{
+	position: relative;
+    height: 46px;
+    line-height: 26px;
+    padding: 10px 20px;
+	border-top: 1px solid #e2e2e2;
+}
+.calendar .calendar-footer .calendar-footer-btns span{
+	height: 26px;
+    line-height: 26px;
+    margin: 0 0 0 -1px;
+    padding: 0 10px;
+    border: 1px solid #C9C9C9;
+    background-color: #fff;
+    white-space: nowrap;
+    vertical-align: top;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.calendar .calendar-footer .calendar-footer-btns span.btn-clear{
+	float: left;
+}
+.calendar .calendar-footer .calendar-footer-btns span.btn-submit{
+	float: right;
+}

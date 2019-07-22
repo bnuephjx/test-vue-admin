@@ -2,6 +2,7 @@ const pageView = resolve => require(['@/components/layout/page.vue'],resolve);
 
 const notifyView = resolve => require(['@/pages/module/views/notify.vue'],resolve);
 const datePickerView = resolve => require(['@/pages/module/views/datepicker.vue'],resolve);
+const dateRangePickerView = resolve => require(['@/pages/module/views/daterangepicker.vue'],resolve);
 const popoverView = resolve => require(['@/pages/module/views/mpopover.vue'],resolve);
 const treeView = resolve => require(['@/pages/module/views/mtree.vue'],resolve);
 const selectView = resolve => require(['@/pages/module/views/mselect.vue'],resolve);
@@ -28,6 +29,13 @@ const router = {
       'cn':'日历组件'
     },
   	'component':datePickerView
+  },{
+    'path':'dateRangePicker',
+    'name':'dataRangePicker',
+    'meta':{
+      'cn':'时间段控件'
+    },
+  	'component':dateRangePickerView
   },{
     'path':'select',
     'name':'select',
